@@ -320,7 +320,7 @@ class Sendmail
      * @ignore
      * @return string
      */
-    public static function getExtName()
+    public function getExtName()
     {
         return $this->extName;
     }
@@ -332,7 +332,7 @@ class Sendmail
      * @param  string $extName
      * @return string
      */
-    public static function setExtName($extName)
+    public function setExtName($extName)
     {
         $this->extName = $extName;
         
@@ -345,7 +345,7 @@ class Sendmail
      * @ignore
      * @return string
      */
-    public static function getExtPath()
+    public function getExtPath()
     {
         return $this->extPath;
     }
@@ -357,7 +357,7 @@ class Sendmail
      * @param  string $extPath
      * @return string
      */
-    public static function setExtPath($extPath)
+    public function setExtPath($extPath)
     {
         $this->extPath = $extPath;
 
