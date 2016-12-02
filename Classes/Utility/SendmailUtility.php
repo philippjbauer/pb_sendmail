@@ -20,7 +20,7 @@ use \PhilippBauer\PbSendmail\Exceptions\SendmailException;
 /**
  * Sendmail
  */
-class Sendmail
+class SendmailUtility
 {
     /**
      * The extension key
