@@ -223,7 +223,7 @@ class SendmailUtility
      * 
      * @return \TYPO3\CMS\Fluid\View\StandaloneView
      */
-    public function setupStandaloneView()
+    private function setupStandaloneView()
     {  
         $objectManager = new ObjectManager;
 
