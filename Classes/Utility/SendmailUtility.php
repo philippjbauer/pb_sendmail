@@ -47,14 +47,14 @@ class SendmailUtility
      * TYPO3 MailSystem
      * 
      * @var \TYPO3\CMS\Core\Mail\MailMessage
-	 */
+     */
     protected $mailer = null;
 
     /**
      * The from email address
      * 
      * @var array
-	 */
+     */
     protected $from = [];
 
     /**
@@ -75,21 +75,21 @@ class SendmailUtility
      * The bcc email addresses
      * 
      * @var array
-	 */
+     */
     protected $bcc = [];
 
     /**
      * The subject
      * 
      * @var string
-	 */
+     */
     protected $subject = '';
 
     /**
      * The content
      * 
      * @var mixed(string/array)
-	 */
+     */
     protected $content = null;
 
     /**
@@ -103,14 +103,14 @@ class SendmailUtility
      * The viewConfiguration
      * 
      * @var array
-	 */
+     */
     protected $viewConfiguration = [];
 
     /**
-	 * __construct
+     * __construct
      *
      * Initiates the TYPO3 MailSystem.
-	 */
+     */
     public function __construct($extKey = null)
     {
         // Throw exception on missing parameter
@@ -138,11 +138,11 @@ class SendmailUtility
     }
 
     /**
-	 * Sends a simple mail
+     * Sends a simple mail
      * Sends a simple text/plain messge to the given receiver(s).
      *
-	 * @return void
-	 */
+     * @return void
+     */
     public function sendSimpleMail()
     {
         // Check for missing attributes
